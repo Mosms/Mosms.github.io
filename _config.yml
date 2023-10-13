@@ -1,1 +1,5 @@
-theme: jekyll-theme-cayman
+title: B. Fu's Homepage
+description: Hello from B. Fu @NJU.
+show_downloads: true
+google_analytics:
+theme: jekyll-theme-leap-day
