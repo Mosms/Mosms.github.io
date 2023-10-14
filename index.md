@@ -10,11 +10,12 @@
       <a href="/index-cn.html">Chinese Version</a>
     </td>
     <td width="25%">
-      <img src="./selfdraw.jpg" width="100%">
+      <img src="./assets/images/selfdraw.jpg" width="100%">
     </td>
   </tr>
 </table>
 </div>
+
 
 
 
