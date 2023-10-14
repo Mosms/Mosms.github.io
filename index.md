@@ -23,6 +23,9 @@
 
 I'm Bo Fu from Nanjing University, now I'm major in Computer Science.
 
+My personal mo-(b)logs' website can be seen from [Mologs](https://mosms.github.io/Mologs/), if you are interested in this, you can browse this webpage.
+
+
 ---
 
 + Now this page is not frequently used, but future I'll do more things here.
