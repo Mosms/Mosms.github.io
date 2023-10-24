@@ -29,4 +29,4 @@ My personal mo-(b)logs' website can be seen from [Mologs](https://mosms.github.i
 
 ---
 
-+ Now this page is not frequently used, but future I'll do more things here.
++ Now this page is still under construction, where I will do more things in future.
