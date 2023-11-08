@@ -5,7 +5,7 @@
       <h1 style="font-family: KaiTi">付博</h1>
       <p><b>计算机科学方向在读本科生</b></p>
       <p><b></b></p>
-      <p><a href="https://www.nju.edu.cn/">南京大学</a><a href="https://dii.nju.edu.cn/main.htm">匡亚明学院</a></p>
+      <p><a href="https://www.nju.edu.cn/">南京大学</a> <a href="https://dii.nju.edu.cn/main.htm">匡亚明学院</a></p>
         <p><b>邮箱：<a href="mailto:bfurthe@gmail.com">bfurthe@gmail.com</a></b></p>
       <p><b>地址：江苏省南京市栖霞区仙林大道163号</b></p>
       <p><a href="/index.html">英文版</a></p>
@@ -16,9 +16,6 @@
   </tr>
 </table>
 </div>
-
-
-
 
 ---
 

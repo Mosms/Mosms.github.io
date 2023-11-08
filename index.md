@@ -16,10 +16,6 @@
 </table>
 </div>
 
-
-
-
-
 ---
 
 I'm Bo Fu from Nanjing University, now I'm major in Computer Science.
