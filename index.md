@@ -4,7 +4,7 @@
     <td>
       <h1>Bo Fu</h1>
       <p><b>Undergraduate Student Major in Computer Science</b></p>
-      <p><b href="https://dii.nju.edu.cn/kym_en/main.htm">Kuang Yaming Honors School</b>, <b href="https://www.nju.edu.cn/en/">Nanjing University</b></p>
+        <p><b><a href="https://dii.nju.edu.cn/kym_en/main.htm">Kuang Yaming Honors School</a>, <a href="https://www.nju.edu.cn/en/">Nanjing University</a></bb></p>
       <p><b>E-mail: <a href="mailto:bfurthe@gmail.com">bfurthe@gmail.com</a></b></p>
       <p><b>Address: 163 Xianlin Avenue, Qixia District, Nanjing City, Jiangsu Province, China</b></p>
       <a href="/index-cn.html">Chinese Version</a>
@@ -15,6 +15,7 @@
   </tr>
 </table>
 </div>
+
 
 
 ---

@@ -5,7 +5,7 @@
       <h1 style="font-family: KaiTi">付博</h1>
       <p><b>计算机科学方向在读本科生</b></p>
       <p><b></b></p>
-      <p><b href="https://www.nju.edu.cn/">南京大学</b> <b href="https://dii.nju.edu.cn/main.htm">匡亚明学院</b></p>
+        <p><b><a href="https://www.nju.edu.cn/">南京大学</a> <a href="https://dii.nju.edu.cn/main.htm">匡亚明学院</a></b></p>
         <p><b>邮箱：<a href="mailto:bfurthe@gmail.com">bfurthe@gmail.com</a></b></p>
       <p><b>地址：江苏省南京市栖霞区仙林大道163号</b></p>
       <p><a href="/index.html">英文版</a></p>
@@ -18,13 +18,14 @@
 </div>
 
 
+
 ---
 
 我是付博，目前是来自南京大学匡亚明学院的大三学生，主修方向是计算机科学。
 
-我的个人简历是 [CV.PDF（点击以查看）](https://mosms.github.io/Mologs/assets/files/CV.pdf)，同时也欢迎任何形式的**积极**建议。
+我的个人简历是 [CV.PDF（点击以查看）](https://mosms.github.io/assets/files/CV.pdf)，同时也欢迎任何形式的**积极**建议。
 
-我的个人博客网站是 [Mologs](https://mosms.github.io/Mologs/)，里面记录了一些我的学习心得、笔记或是技术分享，如果你对此感兴趣，可以自行浏览。
+我的个人博客网站是 [Mologs](https://mosms.github.io/Mologs/)，里面记录了一些我的**学习心得**、**笔记**以及**技术分享**，如果你对此感兴趣，可以自行浏览。
 
 ---
 
