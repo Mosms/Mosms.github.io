@@ -22,9 +22,11 @@
 
 I'm Bo Fu from Nanjing University, now I'm major in Computer Science.
 
-My CV can be seen from [CV.PDF (Click to See)](https://mosms.github.io/assets/files/CV.pdf), any form of **positive** suggestions are welcomed.
+My CV can be seen from [CV.PDF (Click to See)](https://mosms.github.io/assets/files/CV.pdf).
 
 My personal mo-(b)logs' website can be seen from [Mologs](https://mosms.github.io/Mologs/), if you are interested in this, you can browse this webpage.
+
+If you have any form of **positive** suggestions, welcome to contact me.
 
 
 ---
