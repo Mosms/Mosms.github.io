@@ -7,7 +7,7 @@
         <p><b><a href="https://dii.nju.edu.cn/kym_en/main.htm">Kuang Yaming Honors School</a>, <a href="https://www.nju.edu.cn/en/">Nanjing University</a></b></p>
       <p><b>E-mail: <a href="mailto:bfurthe@gmail.com">bfurthe@gmail.com</a></b></p>
       <p><b>Address: 163 Xianlin Avenue, Qixia District, Nanjing City, Jiangsu Province, China</b></p>
-      <a href="/index-cn.html">Chinese Version(中文版)</a>
+      <a href="/index-cn.html">Chinese Version (中文版)</a>
     </td>
     <td width="25%">
       <img src="./assets/images/selfdraw.jpg" width="100%">
@@ -16,14 +16,11 @@
 </table>
 </div>
 
-
-
-
 ---
 
 I'm Bo Fu from Nanjing University, now I'm major in Computer Science.
 
-My CV can be seen from [CV.PDF (Click to See)](https://mosms.github.io/assets/files/CV.pdf).
+My CV can be seen from [CV.PDF (Click to See)](https://mosms.github.io/assets/files/CV.pdf), Chinese version can be seen from [简历.PDF (Click to See)](https://mosms.github.io/assets/files/简历.pdf).
 
 My personal mo-(b)logs' website can be seen from [Mologs](https://mosms.github.io/Mologs/), if you are interested in this, you can browse this webpage.
 
