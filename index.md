@@ -7,7 +7,7 @@
         <p><b><a href="https://dii.nju.edu.cn/kym_en/main.htm">Kuang Yaming Honors School</a>, <a href="https://www.nju.edu.cn/en/">Nanjing University</a></b></p>
       <p><b>E-mail: <a href="mailto:bfurthe@gmail.com">bfurthe@gmail.com</a></b></p>
       <p><b>Address: 163 Xianlin Avenue, Qixia District, Nanjing City, Jiangsu Province, China</b></p>
-      <a href="/index-cn.html">Chinese Version</a>
+      <a href="/index-cn.html">Chinese Version(中文版)</a>
     </td>
     <td width="25%">
       <img src="./assets/images/selfdraw.jpg" width="100%">
@@ -15,6 +15,7 @@
   </tr>
 </table>
 </div>
+
 
 
 

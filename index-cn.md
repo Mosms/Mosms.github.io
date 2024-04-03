@@ -8,7 +8,7 @@
         <p><b><a href="https://www.nju.edu.cn/">南京大学</a> <a href="https://dii.nju.edu.cn/main.htm">匡亚明学院</a></b></p>
         <p><b>邮箱：<a href="mailto:bfurthe@gmail.com">bfurthe@gmail.com</a></b></p>
       <p><b>地址：江苏省南京市栖霞区仙林大道163号</b></p>
-      <p><a href="/index.html">英文版</a></p>
+      <p><a href="/index.html">英文版（English Version）</a></p>
     </td>
     <td width="25%">
       <img src="./assets/images/selfdraw.jpg" width="100%">
@@ -19,11 +19,12 @@
 
 
 
+
 ---
 
 我是付博，目前是来自南京大学匡亚明学院的大三学生，主修方向是计算机科学。
 
-我的个人简历是 [简历.PDF（点击以查看）](https://mosms.github.io/assets/files/简历.pdf)。
+我的个人简历是 [简历.PDF（点击以查看）](https://mosms.github.io/assets/files/简历.pdf)，英文版是 [CV.PDF (Click to See)](https://mosms.github.io/assets/files/CV.pdf)。
 
 我的个人博客网站是 [Mologs](https://mosms.github.io/Mologs/)，里面记录了一些我的**学习心得**、**笔记**以及**技术分享**，如果你对此感兴趣，可以自行浏览。
 
