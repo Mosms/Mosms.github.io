@@ -20,7 +20,7 @@
 
 我是付博，目前是来自南京大学匡亚明学院的大三学生，主修方向是计算机科学。
 
-我的个人简历是 [简历.PDF（点击以查看）](https://mosms.github.io/assets/files/简历.pdf)，英文版是 [CV.PDF (Click to See)](https://mosms.github.io/assets/files/CV.pdf)。
+我的个人简历是 [简历.PDF（链接）](https://mosms.github.io/assets/files/简历.pdf)，英文版是 [CV.PDF（链接）](https://mosms.github.io/assets/files/CV.pdf)。
 
 我的个人博客网站是 [Mologs](https://mosms.github.io/Mologs/)，里面记录了一些我的**学习心得**、**笔记**以及**技术分享**，如果你对此感兴趣，可以自行浏览。
 
