@@ -1,5 +1,10 @@
 title: Bo's Homepage
-description: ''
+
+description: 'Hello U.'
+
+baseurl: '' 
+url: 'https://mosms.github.io'
+
 show_downloads: false
 google_analytics:
 theme: jekyll-theme-cayman
