@@ -2,7 +2,7 @@
 
 ## About Me
 
-Now from NJU, China.
+Now from [SJTU](https://en.sjtu.edu.cn), China.
 
 ## Template
 
