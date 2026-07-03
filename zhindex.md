@@ -3,6 +3,7 @@ layout: homepage
 permalink: /zhindex.html
 lang: zh-CN
 title: 付博
+profile_title: 付博
 position: 博士研究生
 affiliation: 上海交通大学
 affiliation_link: https://www.sjtu.edu.cn/

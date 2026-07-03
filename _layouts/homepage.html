@@ -1,4 +1,4 @@
-{% assign profile_title = page.title | default: site.title %}
+{% assign profile_title = page.profile_title | default: site.title %}
 {% assign profile_position = page.position | default: site.position %}
 {% assign profile_affiliation = page.affiliation | default: site.affiliation %}
 {% assign profile_affiliation_link = page.affiliation_link | default: site.affiliation_link %}
@@ -26,7 +26,7 @@
     <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
     <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
 
-    <link rel="stylesheet" href="./assets/css/academicons.min.css">
+    <link rel="stylesheet" href="./assets/css/academicons.min.css?v=20260703-2">
     <link rel="stylesheet" href="./assets/css/fontawesome-brands.min.css">
 
     {% if site.font == "Sans Serif" %}
