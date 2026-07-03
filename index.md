@@ -17,7 +17,7 @@ More broadly, I am interested in ideas from [theoretical physics](https://en.wik
 My current research lies in theoretical computer science. 
 More broadly, I am interested in ideas from theoretical physics, explainable AI, and AI safety, especially when they aim to turn complex high-dimensional behavior into simpler and more human-understandable structures.
 
-Currently, I mainly work on reachability and related problems in [**V**ector **A**ddition **S**ystems (with **S**tates)](https://en.wikipedia.org/wiki/Vector_addition_system). What particularly interests me is what I see as one of the central ideas in this area: developing **finite** symbolic, algorithmic, and proof-theoretic methods for reasoning about **infinite**-state systems.
+Currently, I mainly work on reachability and related verification problems in [**V**ector **A**ddition **S**ystems (with **S**tates)](https://en.wikipedia.org/wiki/Vector_addition_system). What particularly interests me is what I see as one of the central ideas in this area: developing **finite** symbolic, algorithmic, and proof-theoretic methods for reasoning about **infinite**-state systems.
 
 
 ## Education

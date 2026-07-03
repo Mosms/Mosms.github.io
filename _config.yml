@@ -19,12 +19,9 @@ github_link: https://github.com/Mosms
 # Images
 avatar: assets/images/selfdraw.jpg
 favicon: assets/images/mologo.png
-favicon_dark: assets/images/mologo.png
 
 # Theme options
 enable_footnote: true
-auto_dark_mode: true
-font: "Serif"
 
 # Jekyll settings
 markdown: kramdown
@@ -36,6 +33,5 @@ exclude:
   - compose.yaml
   - Gemfile
   - Gemfile.lock
-  - ReadMe.md
+  - README.md
   - LICENSE
-  - html_source_file/
