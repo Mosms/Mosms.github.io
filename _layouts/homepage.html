@@ -15,6 +15,17 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="{{ site.description }}">
+    <script>
+      (function () {
+        try {
+          var savedTheme = localStorage.getItem('theme');
+          var systemTheme = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+          document.documentElement.dataset.theme = savedTheme || systemTheme;
+        } catch (error) {
+          document.documentElement.dataset.theme = 'light';
+        }
+      }());
+    </script>
     {% if site.keywords %}
     <meta name="keywords" content="{{ site.keywords }}">
     {% endif %}
@@ -32,6 +43,13 @@
 
   </head>
   <body{% if profile_lang == "zh-CN" %} class="lang-zh"{% endif %}>
+    <button class="theme-toggle" type="button"
+      aria-label="{% if profile_lang == "zh-CN" %}切换明暗主题{% else %}Toggle color theme{% endif %}"
+      data-light-label="{% if profile_lang == "zh-CN" %}切换到明亮模式{% else %}Switch to light mode{% endif %}"
+      data-dark-label="{% if profile_lang == "zh-CN" %}切换到黑暗模式{% else %}Switch to dark mode{% endif %}">
+      <span class="theme-toggle__sun" aria-hidden="true">☀</span>
+      <span class="theme-toggle__moon" aria-hidden="true">☾</span>
+    </button>
     <div class="wrapper">
       <header>
         
@@ -96,6 +114,7 @@
         
       </footer>
     </div>
+    <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
     {% if site.google_analytics %}
     <script>
       (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
