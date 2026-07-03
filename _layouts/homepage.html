@@ -1,0 +1,123 @@
+{% assign profile_title = page.title | default: site.title %}
+{% assign profile_position = page.position | default: site.position %}
+{% assign profile_affiliation = page.affiliation | default: site.affiliation %}
+{% assign profile_affiliation_link = page.affiliation_link | default: site.affiliation_link %}
+{% assign profile_email = page.email | default: site.email %}
+{% assign profile_avatar = page.avatar | default: site.avatar %}
+{% assign profile_cv_link = page.cv_link | default: site.cv_link %}
+{% assign profile_lang = page.lang | default: site.lang | default: "en-US" %}
+<!DOCTYPE html>
+<html lang="{{ profile_lang }}">
+  <head>
+    <title>{{ profile_title }} | {{ profile_affiliation }}</title>
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{ site.description }}">
+    {% if site.keywords %}
+    <meta name="keywords" content="{{ site.keywords }}">
+    {% endif %}
+    {% if site.canonical %}
+    <link rel="canonical" href="{{ site.canonical }}"/>
+    {% endif %}
+
+    <link rel="icon" media="(prefers-color-scheme:dark)" href="{{ site.favicon_dark }}" type="image/png" />
+    <link rel="icon" media="(prefers-color-scheme:light)" href="{{ site.favicon }}" type="image/png" />
+    <script src="./assets/js/favicon-switcher.js" type="application/javascript"></script>
+
+    <link rel="stylesheet" href="./assets/css/academicons.min.css">
+    <link rel="stylesheet" href="./assets/css/fontawesome-brands.min.css">
+
+    {% if site.font == "Sans Serif" %}
+    <link rel="stylesheet" href="./assets/css/font_sans_serif.css?v=20260703-3">
+    {% else %}
+    <link rel="stylesheet" href="./assets/css/font.css?v=20260703-3">
+    {% endif %}
+    {% if site.auto_dark_mode %}
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/publications.css">
+    {% else %}
+    <link rel="stylesheet" href="./assets/css/style-no-dark-mode.css">
+    <link rel="stylesheet" href="./assets/css/publications-no-dark-mode.css">
+    {% endif %}
+
+  </head>
+  <body{% if profile_lang == "zh-CN" %} class="lang-zh"{% endif %}>
+    <div class="wrapper">
+      <header>
+        
+        {% if profile_avatar %}
+        <a class="image avatar"><img src="{{ profile_avatar }}" alt="{{ profile_title }}" /></a>
+        {% endif %}
+
+        <h1>{{ profile_title }}</h1>
+
+        {% if profile_position %}
+        <position style="font-size:1.10rem;">{{ profile_position }}</position>
+        <br>
+        {% endif %}
+        {% if profile_affiliation %}
+        <a href="{{ profile_affiliation_link }}" rel="noopener"><autocolor>{{ profile_affiliation }}</autocolor></a>
+        <br>
+        {% endif %}
+        {% if profile_email %}
+        <email><a class="email-link" href="mailto:{{ profile_email }}">{{ profile_email }}</a></email>
+        {% endif %}
+
+        <br>
+        <br>
+        <nav class="social-icons" aria-label="Profile links">
+        {% if site.google_scholar %}
+        <a href="{{ site.google_scholar }}" aria-label="Google Scholar" title="Google Scholar"><i class="ai ai-google-scholar"></i></a>
+        {% endif %}
+
+        {% if profile_cv_link %}
+        <a href="{{ profile_cv_link | relative_url }}" aria-label="CV" title="CV"{% if profile_lang == "zh-CN" %} class="zh-cv-link"{% endif %}>
+          {% if profile_lang == "zh-CN" %}简历{% else %}<i class="ai ai-cv"></i>{% endif %}
+        </a>
+        {% endif %}
+
+        {% if site.github_link %}
+        <a href="{{ site.github_link }}" aria-label="GitHub" title="GitHub"><i class="fa-brands fa-github"></i></a>
+        {% endif %}
+
+        {% if site.linkedin %}
+        <a href="{{ site.linkedin }}" aria-label="LinkedIn" title="LinkedIn"><i class="fa-brands fa-linkedin"></i></a>
+        {% endif %}
+
+        {% if site.twitter %}
+        <a href="{{ site.twitter }}" aria-label="X" title="X"><i class="fa-brands fa-x-twitter"></i></a>
+        {% endif %}
+        </nav>
+        <br>
+
+      </header>
+      <section>
+
+      {{ content }}
+
+      <br>
+
+      {% if site.enable_footnote %}
+      <p><small>Powered by Jekyll and <a href="https://github.com/yaoyao-liu/minimal-light" target="_blank" rel="noopener">Minimal Light</a> theme.</small></p>
+      {% endif %}
+
+      </section>
+      <footer>
+        
+      </footer>
+    </div>
+    <script src="{{ "/assets/js/scale.fix.js" | relative_url }}"></script>
+    {% if site.google_analytics %}
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+      ga('create', '{{ site.google_analytics }}', 'auto');
+      ga('send', 'pageview');
+    </script>
+    {% endif %}
+  </body>
+</html>

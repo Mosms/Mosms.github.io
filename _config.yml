@@ -1,23 +1,41 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'jekyll serve'. If you change this file, please restart the server process.
+# Basic information
+title: Bo Fu
+position: Ph.D. Student
+affiliation: Shanghai Jiao Tong University
+affiliation_link: https://en.sjtu.edu.cn/
+email: fubo0970@sjtu.edu.cn
 
-# Site settings
-title: Bo's Homepage
-description: '' # write a nice description for your blog
-baseurl: '' # the subpath of your site, e.g. /blog
-url: 'https://mosms.github.io' # the base hostname & protocol for your site http://www.example.com
-# google_analytics: 'UA-XXXXXX-X'
-# twitter_username: 'twitter_username'
+# Search engine optimization
+keywords: Bo Fu, Computer Science, Shanghai Jiao Tong University
+description: Academic homepage of Bo Fu, a Ph.D. student in Computer Science at Shanghai Jiao Tong University.
+canonical: https://mosms.github.io/
+url: https://mosms.github.io
+baseurl: ""
 
-# Build settings
+# Links
+cv_link: assets/files/CV.pdf
+github_link: https://github.com/Mosms
+
+# Images
+avatar: assets/images/selfdraw.jpg
+favicon: assets/images/mologo.png
+favicon_dark: assets/images/mologo.png
+
+# Theme options
+enable_footnote: true
+auto_dark_mode: true
+font: "Serif"
+
+# Jekyll settings
 markdown: kramdown
+permalink: /:title/
+plugins: []
 
-permalink: '/:title/'
-
-gems: [jekyll-paginate]
-
-paginate: 10
+exclude:
+  - Dockerfile
+  - compose.yaml
+  - Gemfile
+  - Gemfile.lock
+  - ReadMe.md
+  - LICENSE
+  - html_source_file/
