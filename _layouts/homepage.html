@@ -30,9 +30,9 @@
     <link rel="stylesheet" href="./assets/css/fontawesome-brands.min.css">
 
     {% if site.font == "Sans Serif" %}
-    <link rel="stylesheet" href="./assets/css/font_sans_serif.css?v=20260703-3">
+    <link rel="stylesheet" href="./assets/css/font_sans_serif.css?v={{ site.time | date: '%s' }}">
     {% else %}
-    <link rel="stylesheet" href="./assets/css/font.css?v=20260703-3">
+    <link rel="stylesheet" href="./assets/css/font.css?v={{ site.time | date: '%s' }}">
     {% endif %}
     {% if site.auto_dark_mode %}
     <link rel="stylesheet" href="./assets/css/style.css">
