@@ -47,8 +47,17 @@
       aria-label="{% if profile_lang == "zh-CN" %}切换明暗主题{% else %}Toggle color theme{% endif %}"
       data-light-label="{% if profile_lang == "zh-CN" %}切换到明亮模式{% else %}Switch to light mode{% endif %}"
       data-dark-label="{% if profile_lang == "zh-CN" %}切换到黑暗模式{% else %}Switch to dark mode{% endif %}">
-      <span class="theme-toggle__sun" aria-hidden="true">☀</span>
-      <span class="theme-toggle__moon" aria-hidden="true">☾</span>
+      <span class="theme-toggle__sun" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <circle cx="12" cy="12" r="4"></circle>
+          <path d="M12 2v2M12 20v2M4.93 4.93l1.42 1.42M17.66 17.66l1.41 1.41M2 12h2M20 12h2M4.93 19.07l1.42-1.42M17.66 6.34l1.41-1.41"></path>
+        </svg>
+      </span>
+      <span class="theme-toggle__moon" aria-hidden="true">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round">
+          <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+        </svg>
+      </span>
     </button>
     <div class="wrapper">
       <header>

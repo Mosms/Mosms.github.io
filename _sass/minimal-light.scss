@@ -690,6 +690,12 @@ html[data-theme="dark"] {
   display: none;
 }
 
+.theme-toggle svg {
+  display: block;
+  width: 1.35rem;
+  height: 1.35rem;
+}
+
 [data-theme="light"] .theme-toggle__moon,
 [data-theme="dark"] .theme-toggle__sun {
   display: inline;
