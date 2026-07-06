@@ -60,6 +60,15 @@
 }
 
 @font-face {
+  font-family: "Liu Gong Quan Name";
+  src: url("../fonts/liu-gong-quan-name.woff2") format("woff2");
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  unicode-range: U+4ED8, U+535A;
+}
+
+@font-face {
   font-family: "Qingniao JianKai Local";
   src: url("../fonts/qingniao-jiankai-common.woff2") format("woff2");
   font-style: normal;
