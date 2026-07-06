@@ -51,23 +51,14 @@
 }
 
 @font-face {
-  font-family: "Liu Gong Quan Local";
-  src: url("../fonts/liu-gong-quan-common.woff2") format("woff2");
-  font-style: normal;
-  font-weight: 400;
-  font-display: swap;
-  unicode-range: U+2E80-2EFF, U+3000-303F, U+31C0-31EF, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
-}
-
-@font-face {
-  font-family: "Liu Gong Quan Name Web";
+  font-family: "Liu Gong Quan Profile Web";
   src:
-    url("../fonts/liu-gong-quan-name-web.woff2") format("woff2"),
+    url("../fonts/liu-gong-quan-profile-web.woff2") format("woff2"),
     url("../fonts/liu-gong-quan-full.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: block;
-  unicode-range: U+4ED8, U+535A;
+  unicode-range: U+2E80-2EFF, U+3000-303F, U+31C0-31EF, U+3400-4DBF, U+4E00-9FFF, U+F900-FAFF, U+FF00-FFEF;
 }
 
 @font-face {
