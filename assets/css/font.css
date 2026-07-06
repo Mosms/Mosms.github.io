@@ -60,8 +60,10 @@
 }
 
 @font-face {
-  font-family: "Liu Gong Quan Name";
-  src: url("../fonts/liu-gong-quan-name.woff2") format("woff2");
+  font-family: "Liu Gong Quan Name Web";
+  src:
+    url("../fonts/liu-gong-quan-name-web.woff2") format("woff2"),
+    url("../fonts/liu-gong-quan-full.ttf") format("truetype");
   font-style: normal;
   font-weight: 400;
   font-display: block;
