@@ -73,7 +73,7 @@
 body {
   background-color: #fff;
   padding:0px;
-  font: 16px/1.5 "Crimson Pro Local", serif;
+  font: 16px/1.5 "Crimson Pro Local", "Noto Serif SC Local", serif;
   color:#595959;
   font-weight:400;
   margin:0
