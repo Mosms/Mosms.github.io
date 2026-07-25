@@ -25,6 +25,7 @@ Currently, I mainly work on reachability and related verification problems in [*
 - Ph.D. student in Computer Science and Technology, **[Shanghai Jiao Tong University](https://en.sjtu.edu.cn/)**.
 - B.Sc. in Computer Science and Technology, **[Nanjing University](https://www.nju.edu.cn/en/)**.
     - Recipient of the National Scholarship.
+    {% comment %}Certificate image kept at assets/images/national_BZK2024006849.jpg for private reference or future use.{% endcomment %}
 
 ## Publications
 

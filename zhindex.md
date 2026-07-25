@@ -30,6 +30,7 @@ cv_link: assets/files/简历.pdf
 - **[上海交通大学](https://www.sjtu.edu.cn/)**，博士研究生，主修计算机科学与技术
 - **[南京大学](https://www.nju.edu.cn/)**，理学学士，主修计算机科学与技术
     - 国家奖学金
+    {% comment %}证书图片保留在 assets/images/national_BZK2024006849.jpg，可作为私下材料或未来需要时使用。{% endcomment %}
 
 ## 发表论文
 
