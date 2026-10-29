@@ -336,13 +336,23 @@ papertitle {
       color: #eeeff0;
     }
 
+    body:not(.lang-zh) .publication-title,
+    body:not(.lang-zh) .publication-title a {
+      color: #fff;
+    }
+
+    body:not(.lang-zh) .publication-title a:hover,
+    body:not(.lang-zh) .publication-title a:focus-visible {
+      color: #3eb7f0;
+    }
+
     .publication-title a:hover,
     .publication-title a:focus-visible {
       color: #3eb7f0;
     }
 
     .publication::before {
-      background: #3eb7f0;
+      background: #fff;
     }
 
     .publication-authors a {
