@@ -13,7 +13,7 @@ url: https://mosms.github.io
 baseurl: ""
 
 # Links
-cv_link: assets/files/CV.pdf
+# cv_link: assets/files/CV.pdf  # Uncomment to restore the CV icon in the sidebar.
 github_link: https://github.com/Mosms
 
 # Images

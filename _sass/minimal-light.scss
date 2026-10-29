@@ -786,10 +786,7 @@ footer {
 
 .lang-zh section a {
   color: inherit;
-  text-decoration: underline;
-  text-decoration-color: rgba(22, 119, 168, 0.28);
-  text-decoration-thickness: 0.06em;
-  text-underline-offset: 0.14em;
+  text-decoration: none;
 }
 
 .lang-zh section a.language-switch,
@@ -812,6 +809,13 @@ footer {
   text-underline-offset: 0.15em;
 }
 
+.lang-zh section a.language-switch:hover,
+.lang-zh section a.language-switch:focus-visible,
+.lang-zh .publication-meta a:hover,
+.lang-zh .publication-meta a:focus-visible {
+  text-decoration: none;
+}
+
 .lang-zh section a:focus-visible {
   outline: 2px solid #1677a8;
   outline-offset: 2px;
@@ -821,11 +825,6 @@ footer {
 [data-theme="dark"] .lang-zh section a:hover,
 [data-theme="dark"] .lang-zh section a:focus-visible {
   color: #3eb7f0;
-  text-decoration-color: currentColor;
-}
-
-[data-theme="dark"] .lang-zh section a {
-  text-decoration-color: rgba(62, 183, 240, 0.4);
 }
 
 [data-theme="dark"] .lang-zh section a.language-switch,

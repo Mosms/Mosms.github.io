@@ -8,7 +8,7 @@ position: 博士研究生
 affiliation: 上海交通大学
 affiliation_link: https://www.sjtu.edu.cn/
 email: fubo0970@sjtu.edu.cn
-cv_link: assets/files/简历.pdf
+# cv_link: assets/files/简历.pdf  # 取消注释即可恢复中文侧栏的“简历”入口。
 description: 付博的学术主页，研究方向包括向量加法系统、可达性与理论计算机科学。
 keywords: 付博, 向量加法系统, 可达性, 理论计算机科学, 上海交通大学
 canonical: https://mosms.github.io/zhindex.html
