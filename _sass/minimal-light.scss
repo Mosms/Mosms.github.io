@@ -103,7 +103,7 @@
 .github span{
   background-color:#000}
 
-email {
+.profile-email {
     font-size: 14px;
     font-family: "Ubuntu Mono Local", "Ubuntu Mono", monospace;
 }
@@ -137,8 +137,12 @@ email {
 
 .icon-button:hover .icon-twitter,.icon-button:hover .icon-facebook,.icon-button:hover .icon-github,.icon-button:hover .icon-linkedin{color:white}
 
-autocolor{
+.profile-affiliation {
   color:#595959;
+}
+
+.profile-position {
+  font-size: 1.10rem;
 }
 
 lightonly {
@@ -158,13 +162,161 @@ papertitle {
     font-size: 100%;
   }
 
+.publication {
+  position: relative;
+  margin: 0 0 1.4rem;
+  padding-left: 1rem;
+}
+
+.publication::before {
+  position: absolute;
+  top: 0.5rem;
+  left: 0.15rem;
+  width: 0.3rem;
+  height: 0.3rem;
+  border-radius: 50%;
+  background: #043361;
+  content: "";
+}
+
+.publication-title {
+  margin: 0 0 0.25rem;
+  color: #222;
+  font-size: 1em;
+  font-weight: 550;
+  line-height: 1.35;
+}
+
+.publication-title a {
+  color: inherit;
+}
+
+.publication-title a:hover,
+.publication-title a:focus-visible {
+  color: #1677a8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.publication-authors,
+.publication-meta {
+  margin-bottom: 0.3rem;
+}
+
+.publication-authors a {
+  color: inherit;
+}
+
+.publication-authors a:hover,
+.publication-authors a:focus-visible {
+  color: #1677a8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.publication-authors a:focus-visible {
+  outline: 2px solid #1677a8;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+.publication-abstract {
+  margin-top: 0.45rem;
+}
+
+.publication-abstract[open] summary {
+  margin-right: 0.45rem;
+}
+
+.publication-abstract[open] .publication-abstract__body {
+  display: contents;
+}
+
+.publication-abstract[open] .publication-abstract__body p:first-child {
+  display: inline;
+  margin: 0;
+}
+
+.publication-abstract[open] .publication-abstract__body p + p {
+  margin-top: 0.75rem;
+}
+
+.publication-abstract summary {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  color: #1677a8;
+  font-size: 0.9em;
+  cursor: pointer;
+  list-style: none;
+}
+
+.publication-abstract summary::-webkit-details-marker {
+  display: none;
+}
+
+.publication-abstract summary::before {
+  content: "▸";
+  font-size: 0.8em;
+  transition: transform 0.15s ease;
+}
+
+.publication-abstract[open] summary::before {
+  transform: rotate(90deg);
+}
+
+.publication-abstract summary:focus-visible {
+  outline: 2px solid #1677a8;
+  outline-offset: 3px;
+  border-radius: 2px;
+}
+
+.publication-abstract__body {
+  font-size: 0.93em;
+  line-height: 1.55;
+}
+
+.publication-abstract__body p {
+  margin-bottom: 0.75rem;
+}
+
+.publication-abstract__body p:last-child {
+  margin-bottom: 0;
+}
+
+.lang-zh .publication {
+  font-family: "Crimson Pro Local", "Noto Serif SC Local", "Noto Serif SC", serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  letter-spacing: 0;
+}
+
+.lang-zh .publication-abstract__body {
+  font-family: "Crimson Pro Local", serif;
+  font-size: 0.95rem;
+  line-height: 1.62;
+  letter-spacing: 0;
+}
+
+.lang-zh .publication-abstract[open] .publication-abstract__body p + p {
+  margin-top: 0.95rem;
+}
+
+.lang-zh .publication-abstract__body p {
+  margin-bottom: 0.95rem;
+}
+
+.lang-zh .publication-abstract__body p:last-child {
+  margin-bottom: 0;
+}
+
 [data-theme="dark"] {
     body {
         background-color: #20212b;
         color: #dadbdf;
     }
 
-    autocolor{
+    .profile-affiliation {
       color:#dadbdf;
     }
 
@@ -178,6 +330,32 @@ papertitle {
 
     papertitle {
     color:#eeeff0;
+    }
+
+    .publication-title {
+      color: #eeeff0;
+    }
+
+    .publication-title a:hover,
+    .publication-title a:focus-visible {
+      color: #3eb7f0;
+    }
+
+    .publication::before {
+      background: #3eb7f0;
+    }
+
+    .publication-authors a {
+      color: inherit;
+    }
+
+    .publication-authors a:hover,
+    .publication-authors a:focus-visible {
+      color: #3eb7f0;
+    }
+
+    .publication-abstract summary {
+      color: #3eb7f0;
     }
 
 }
@@ -270,7 +448,7 @@ h1 {
 }
 
 a {
-  color:#39c;
+  color:#1677a8;
   text-decoration:none;
 }
 
@@ -606,6 +784,55 @@ footer {
   letter-spacing: -0.01em;
 }
 
+.lang-zh section a {
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: rgba(22, 119, 168, 0.28);
+  text-decoration-thickness: 0.06em;
+  text-underline-offset: 0.14em;
+}
+
+.lang-zh section a.language-switch,
+.lang-zh .publication-title a,
+.lang-zh .publication-authors a,
+.lang-zh .publication-meta a {
+  color: #1677a8;
+  text-decoration: none;
+}
+
+.lang-zh .publication-title a,
+.lang-zh .publication-authors a {
+  color: inherit;
+}
+
+.lang-zh section a:hover,
+.lang-zh section a:focus-visible {
+  color: #1677a8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+.lang-zh section a:focus-visible {
+  outline: 2px solid #1677a8;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
+[data-theme="dark"] .lang-zh section a:hover,
+[data-theme="dark"] .lang-zh section a:focus-visible {
+  color: #3eb7f0;
+  text-decoration-color: currentColor;
+}
+
+[data-theme="dark"] .lang-zh section a {
+  text-decoration-color: rgba(62, 183, 240, 0.4);
+}
+
+[data-theme="dark"] .lang-zh section a.language-switch,
+[data-theme="dark"] .lang-zh .publication-meta a {
+  color: #3eb7f0;
+}
+
 .lang-zh header h1 {
   font-family: "Liu Gong Quan Profile Web", "Crimson Pro CJK", "KaiTi", "STKaiti", serif;
   font-weight: 400;
@@ -617,8 +844,13 @@ footer {
   font-weight: 500;
 }
 
-.lang-zh header position,
-.lang-zh header autocolor {
+.lang-zh h3.publication-title {
+  font-family: "Crimson Pro Local", "Noto Serif SC Local", "Noto Serif SC", serif;
+  font-weight: 550;
+}
+
+.lang-zh header .profile-position,
+.lang-zh header .profile-affiliation {
   font-family: "Liu Gong Quan Profile Web", "Crimson Pro CJK", "KaiTi", "STKaiti", serif;
   font-weight: 400;
 }
@@ -636,7 +868,7 @@ footer {
 }
 
 .email-link:hover {
-  color: #39c;
+  color: #1677a8;
 }
 .fa-brands,
 .fab {
@@ -681,7 +913,7 @@ html[data-theme="dark"] {
 }
 
 .theme-toggle:focus-visible {
-  outline: 2px solid #39c;
+  outline: 2px solid #1677a8;
   outline-offset: 3px;
 }
 

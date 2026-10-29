@@ -6,6 +6,9 @@
 {% assign profile_avatar = page.avatar | default: site.avatar %}
 {% assign profile_cv_link = page.cv_link | default: site.cv_link %}
 {% assign profile_lang = page.lang | default: site.lang | default: "en-US" %}
+{% assign page_description = page.description | default: site.description %}
+{% assign page_keywords = page.keywords | default: site.keywords %}
+{% assign page_canonical = page.canonical | default: site.canonical %}
 <!DOCTYPE html>
 <html lang="{{ profile_lang }}">
   <head>
@@ -14,7 +17,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="{{ site.description }}">
+    <meta name="description" content="{{ page_description | escape }}">
     <script>
       (function () {
         try {
@@ -26,12 +29,15 @@
         }
       }());
     </script>
-    {% if site.keywords %}
-    <meta name="keywords" content="{{ site.keywords }}">
+    {% if page_keywords %}
+    <meta name="keywords" content="{{ page_keywords | escape }}">
     {% endif %}
-    {% if site.canonical %}
-    <link rel="canonical" href="{{ site.canonical }}"/>
+    {% if page_canonical %}
+    <link rel="canonical" href="{{ page_canonical }}"/>
     {% endif %}
+    <link rel="alternate" hreflang="en" href="{{ site.url }}{{ site.baseurl }}/">
+    <link rel="alternate" hreflang="zh-CN" href="{{ site.url }}{{ site.baseurl }}/zhindex.html">
+    <link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ site.baseurl }}/">
 
     <link rel="icon" href="{{ site.favicon | relative_url }}" type="image/png" />
     {% if profile_lang == "zh-CN" %}
@@ -41,7 +47,7 @@
     <link rel="stylesheet" href="./assets/css/fontawesome-brands.min.css">
 
     <link rel="stylesheet" href="./assets/css/font.css?v={{ site.time | date: '%s' }}">
-    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/style.css?v={{ site.time | date: '%s' }}">
 
   </head>
   <body{% if profile_lang == "zh-CN" %} class="lang-zh"{% endif %}>
@@ -65,21 +71,21 @@
       <header>
         
         {% if profile_avatar %}
-        <a class="image avatar"><img src="{{ profile_avatar }}" alt="{{ profile_title }}" /></a>
+        <div class="image avatar"><img src="{{ profile_avatar }}" alt="{{ profile_title }}" /></div>
         {% endif %}
 
         <h1>{{ profile_title }}</h1>
 
         {% if profile_position %}
-        <position style="font-size:1.10rem;">{{ profile_position }}</position>
+        <span class="profile-position">{{ profile_position }}</span>
         <br>
         {% endif %}
         {% if profile_affiliation %}
-        <a href="{{ profile_affiliation_link }}" rel="noopener"><autocolor>{{ profile_affiliation }}</autocolor></a>
+        <a href="{{ profile_affiliation_link }}" rel="noopener"><span class="profile-affiliation">{{ profile_affiliation }}</span></a>
         <br>
         {% endif %}
         {% if profile_email %}
-        <email><a class="email-link" href="mailto:{{ profile_email }}">{{ profile_email }}</a></email>
+        <span class="profile-email"><a class="email-link" href="mailto:{{ profile_email }}">{{ profile_email }}</a></span>
         {% endif %}
 
         <br>
