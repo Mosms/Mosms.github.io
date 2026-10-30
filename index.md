@@ -12,12 +12,10 @@ My personal blog, [Mologs](https://mosms.github.io/Mologs/), features interestin
 
 ## Research Interests
 
-<!-- My current research lies in [theoretical computer science](https://en.wikipedia.org/wiki/Theoretical_computer_science). 
-More broadly, I am interested in ideas from [theoretical physics](https://en.wikipedia.org/wiki/Theoretical_physics), [explainable AI](https://en.wikipedia.org/wiki/Explainable_artificial_intelligence), and [AI safety](https://en.wikipedia.org/wiki/AI_safety), especially when they aim to turn complex high-dimensional behavior into simpler and more human-understandable structures. -->
-My current research lies in theoretical computer science. 
-More broadly, I am interested in ideas from theoretical physics, explainable AI, and AI safety, especially when they aim to turn complex high-dimensional behavior into simpler and more human-understandable structures.
+My current research lies in <a class="research-topic" href="https://en.wikipedia.org/wiki/Theoretical_computer_science">theoretical computer science</a>.
+More broadly, I am interested in ideas from <a class="research-topic" href="https://en.wikipedia.org/wiki/Theoretical_physics">theoretical physics</a>, <a class="research-topic" href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">mechanistic interpretability</a>, and <a class="research-topic" href="https://en.wikipedia.org/wiki/AI_safety">AI safety</a>, especially when they aim to turn complex high-dimensional behavior into simpler and more human-understandable structures.
 
-Currently, I mainly work on reachability and related verification problems in [**V**ector **A**ddition **S**ystems (with **S**tates)](https://en.wikipedia.org/wiki/Vector_addition_system). What particularly interests me is what I see as one of the central ideas in this area: developing **finite** symbolic, algorithmic, and proof-theoretic methods for reasoning about **infinite**-state systems.
+Currently, I mainly work on reachability and related verification problems in [**V**ector **A**ddition **S**ystems (with **S**tates)](https://en.wikipedia.org/wiki/Vector_addition_system). What particularly interests me is what I see as one of the central ideas in this area: developing **finite** symbolic representations, effective algorithms, and structural proof techniques for reasoning about **infinite**-state systems.
 
 ## Publications
 

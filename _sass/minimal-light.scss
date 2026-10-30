@@ -220,6 +220,24 @@ papertitle {
   border-radius: 2px;
 }
 
+section a.research-topic {
+  color: inherit;
+  text-decoration: none;
+}
+
+section a.research-topic:hover,
+section a.research-topic:focus-visible {
+  color: #1677a8;
+  text-decoration: underline;
+  text-underline-offset: 0.15em;
+}
+
+section a.research-topic:focus-visible {
+  outline: 2px solid #1677a8;
+  outline-offset: 2px;
+  border-radius: 2px;
+}
+
 .publication-abstract {
   margin-top: 0.3rem;
 }
@@ -369,6 +387,11 @@ papertitle {
     }
 
     .publication-abstract__label {
+      color: #3eb7f0;
+    }
+
+    section a.research-topic:hover,
+    section a.research-topic:focus-visible {
       color: #3eb7f0;
     }
 
@@ -804,6 +827,7 @@ footer {
 }
 
 .lang-zh section a.language-switch,
+.lang-zh section a.always-blue-link,
 .lang-zh .publication-title a,
 .lang-zh .publication-authors a,
 .lang-zh .publication-meta a {
@@ -825,6 +849,8 @@ footer {
 
 .lang-zh section a.language-switch:hover,
 .lang-zh section a.language-switch:focus-visible,
+.lang-zh section a.always-blue-link:hover,
+.lang-zh section a.always-blue-link:focus-visible,
 .lang-zh .publication-meta a:hover,
 .lang-zh .publication-meta a:focus-visible {
   text-decoration: none;
@@ -842,6 +868,7 @@ footer {
 }
 
 [data-theme="dark"] .lang-zh section a.language-switch,
+[data-theme="dark"] .lang-zh section a.always-blue-link,
 [data-theme="dark"] .lang-zh .publication-meta a {
   color: #3eb7f0;
 }
