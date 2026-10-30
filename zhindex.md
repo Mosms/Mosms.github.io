@@ -24,7 +24,7 @@ canonical: https://mosms.github.io/zhindex.html
 
 ## 研究方向
 
-我的研究兴趣主要在<a class="research-topic" href="https://baike.baidu.com/item/%E7%90%86%E8%AE%BA%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/11034581">理论计算机科学</a>方向，同时也对<a class="research-topic" href="https://baike.baidu.com/item/%E7%90%86%E8%AE%BA%E7%89%A9%E7%90%86/2490260">理论物理</a>、<a class="research-topic" href="https://en.wikipedia.org/wiki/Mechanistic_interpretability">机制可解释性</a>和 <a class="research-topic" href="https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%89%E5%85%A8">AI 安全</a>等问题保持兴趣。吸引我的是这些方向背后某种共同的思想：用简洁、结构化、可被人理解的方式，去描述复杂而高维的现象。
+我的研究兴趣主要在<a class="research-topic" href="https://baike.baidu.com/item/%E7%90%86%E8%AE%BA%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%A7%91%E5%AD%A6/11034581">理论计算机科学</a>方向，同时也对<a class="research-topic" href="https://baike.baidu.com/item/%E7%90%86%E8%AE%BA%E7%89%A9%E7%90%86/2490260">理论物理</a>、<a class="research-topic" href="https://baike.baidu.com/item/%E6%9C%BA%E5%88%B6%E5%8F%AF%E8%A7%A3%E9%87%8A%E6%80%A7/68563293">机制可解释性</a>和 <a class="research-topic" href="https://baike.baidu.com/item/%E4%BA%BA%E5%B7%A5%E6%99%BA%E8%83%BD%E5%AE%89%E5%85%A8">AI 安全</a>等问题保持兴趣。吸引我的是这些方向背后某种共同的思想：用简洁、结构化、可被人理解的方式，去描述复杂而高维的现象。
 
 目前，我主要研究向量加法系统上的可达性以及相关验证问题。这类问题吸引我的地方在于，我们试图用**有限**的描述、算法和证明方法，去推理**无限**状态系统的行为；这也是理论计算机科学中理解和刻画复杂系统的一种重要方式。
 
